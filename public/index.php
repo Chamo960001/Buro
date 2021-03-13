@@ -10,8 +10,7 @@ require '../models/modelsConfig.php';
 $router = new AltoRouter();
 
 $database_config = require '../app/config/database.php';
-//$database_config = $database_config['mysql']; // Set to wanted database config name
-$database_config = $database_config['mysqlSchool']; // Set to wanted database config name
+$database_config = $database_config['mysql']; // Set to wanted database config name
 
 $database = new Database($database_config['database']);
 $database->setHost($database_config['host'])
@@ -57,6 +56,7 @@ if (is_array($match)) {
         $instance = getControllerClassInstance('Controller', $router, $db_conn);
         call_user_func_array(array($instance, 'view'), array($match['target'], $match['params']));
     }
+        
 } else {
     require '../app/controllers/Controller.php';
     require '../app/controllers/ErrorController.php';

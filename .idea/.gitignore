@@ -2,8 +2,8 @@
 /shelf/
 /workspace.xml
 # Datasource local storage ignored files
-/../../../../../../:\Users\wilbr\projet\CegepWebProject\.idea/dataSources/
+/../../../../../../:\Users\wilbr\projet\BasicWebProject\.idea/dataSources/
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
-/CegepWebProject.iml/
+/BasicWebProject.iml/

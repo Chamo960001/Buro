@@ -16,32 +16,5 @@ return [
     ],
     "adminUpdate" => [
         AdminMiddleware::class
-    ],
-    "eventsList" => [
-        AdminMiddleware::class
-    ],
-    "eventCreate" => [
-        AdminMiddleware::class
-    ],
-    "eventUpdate" => [
-        AdminMiddleware::class
-    ],
-    "newsList" => [
-        AdminMiddleware::class
-    ],
-    "newsCreate" => [
-        AdminMiddleware::class
-    ],
-    "newsUpdate" => [
-        AdminMiddleware::class
-    ],
-    "linksList" => [
-        AdminMiddleware::class
-    ],
-    "linksCreate" => [
-        AdminMiddleware::class
-    ],
-    "linksUpdate" => [
-        AdminMiddleware::class
     ]
 ];

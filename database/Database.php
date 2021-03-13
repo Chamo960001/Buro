@@ -1,6 +1,8 @@
 <?php
 class Database {
 
+    //TODO change this to a singleton for all the project
+
     private $host = '127.0.0.1';
     private $port = 3306;
     private $username = 'root';
