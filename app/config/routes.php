@@ -60,36 +60,37 @@ $router->map('POST','/admin/created','AdminController@created', 'adminCreated');
 $router->map('POST','/admin/updated','AdminController@updated', 'adminUpdated');
 $router->map('POST','/admin/updatedprofil','AdminController@updatedProfil', 'adminUpdatedProfil');
 
+//HERE THIS IS SOME EXEMPLE
 
-//events
-$router->map('GET', '/evenements', 'EventController@getAll', 'eventsIndex');
-$router->map('GET', '/admin/events', 'EventController@eventsList', 'eventsList');
-$router->map('GET', '/admin/event/create', 'EventController@create', 'eventCreate');
-$router->map('GET', '/admin/event/update/[i:id]', 'EventController@update', 'eventUpdate');
-$router->map('GET', '/admin/event/delete/[i:id]','EventController@delete', 'eventDelete');
-
-$router->map('POST', '/admin/event/created', 'EventController@created', 'eventCreated');
-$router->map('POST', '/admin/event/updated', 'EventController@updated', 'eventUpdated');
-
-
-//news
-$router->map('GET', '/actualites', 'NewsController@getAll', 'newsIndex');
-$router->map('GET', '/actualites/[i:id]','NewsController@getNews', 'newsDetails');
-$router->map('GET', '/admin/news', 'NewsController@newsList', 'newsList');
-$router->map('GET', '/admin/news/create', 'NewsController@create', 'newsCreate');
-$router->map('GET', '/admin/news/update/[i:id]', 'NewsController@update', 'newsUpdate');
-$router->map('GET', '/admin/news/delete/[i:id]','NewsController@delete', 'newsDelete');
-
-$router->map('POST','/admin/news/created', 'NewsController@created', 'newsCreated');
-$router->map('POST','/admin/news/updated','NewsController@updated', 'newsUpdated');
-
-
-//links
-$router->map('GET', '/liens-utiles', 'LinksController@index', 'linksIndex');
-$router->map('GET', '/admin/links', 'LinksController@linksList', 'linksList');
-$router->map('GET', '/admin/links/create', 'LinksController@create', 'linksCreate');
-$router->map('GET', '/admin/links/update/[i:id]', 'LinksController@update', 'linksUpdate');
-$router->map('GET', '/admin/links/delete/[i:id]', 'LinksController@delete', 'linksDelete');
-
-$router->map('POST', '/admin/links/created', 'LinksController@created', 'linksCreated');
-$router->map('POST', '/admin/links/updated', 'LinksController@updated', 'linksUpdated');
+////events
+//$router->map('GET', '/evenements', 'EventController@getAll', 'eventsIndex');
+//$router->map('GET', '/admin/events', 'EventController@eventsList', 'eventsList');
+//$router->map('GET', '/admin/event/create', 'EventController@create', 'eventCreate');
+//$router->map('GET', '/admin/event/update/[i:id]', 'EventController@update', 'eventUpdate');
+//$router->map('GET', '/admin/event/delete/[i:id]','EventController@delete', 'eventDelete');
+//
+//$router->map('POST', '/admin/event/created', 'EventController@created', 'eventCreated');
+//$router->map('POST', '/admin/event/updated', 'EventController@updated', 'eventUpdated');
+//
+//
+////news
+//$router->map('GET', '/actualites', 'NewsController@getAll', 'newsIndex');
+//$router->map('GET', '/actualites/[i:id]','NewsController@getNews', 'newsDetails');
+//$router->map('GET', '/admin/news', 'NewsController@newsList', 'newsList');
+//$router->map('GET', '/admin/news/create', 'NewsController@create', 'newsCreate');
+//$router->map('GET', '/admin/news/update/[i:id]', 'NewsController@update', 'newsUpdate');
+//$router->map('GET', '/admin/news/delete/[i:id]','NewsController@delete', 'newsDelete');
+//
+//$router->map('POST','/admin/news/created', 'NewsController@created', 'newsCreated');
+//$router->map('POST','/admin/news/updated','NewsController@updated', 'newsUpdated');
+//
+//
+////links
+//$router->map('GET', '/liens-utiles', 'LinksController@index', 'linksIndex');
+//$router->map('GET', '/admin/links', 'LinksController@linksList', 'linksList');
+//$router->map('GET', '/admin/links/create', 'LinksController@create', 'linksCreate');
+//$router->map('GET', '/admin/links/update/[i:id]', 'LinksController@update', 'linksUpdate');
+//$router->map('GET', '/admin/links/delete/[i:id]', 'LinksController@delete', 'linksDelete');
+//
+//$router->map('POST', '/admin/links/created', 'LinksController@created', 'linksCreated');
+//$router->map('POST', '/admin/links/updated', 'LinksController@updated', 'linksUpdated');

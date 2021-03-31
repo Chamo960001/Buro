@@ -7,8 +7,7 @@ use app\Session;
 use app\User;
 use models\Admin;
 use models\Event;
-use models\News;
-use PDO;
+use \PDO;
 
 class AdminController extends Controller implements IController
 {

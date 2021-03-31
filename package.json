@@ -1,5 +1,5 @@
 {
-  "name": "CegepWebProject",
+  "name": "BasicWebProject",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/loupid/CegepWebProject.git"
+    "url": "git+https://github.com/loupid/BasicWebProject.git"
   },
   "keywords": [],
   "author": "William Hudon",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/loupid/CegepWebProject/issues"
+    "url": "https://github.com/loupid/BasicWebProject/issues"
   },
-  "homepage": "https://github.com/loupid/CegepWebProject#readme",
+  "homepage": "https://github.com/loupid/BasicWebProject#readme",
   "dependencies": {
     "@tailwindcss/forms": "^0.2.1",
     "alpinejs": "^2.8.0",

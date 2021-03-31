@@ -1,1 +1,1 @@
-# CegepWebProject
+# BasicWebProject
